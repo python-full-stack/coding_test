@@ -11,7 +11,7 @@ input_data = " A man, a plan, a canal : Panama"
 
 result = isPalindrome(input_data)
 print(result)
-
+# 완료
 # 영보
 
 # 승범
