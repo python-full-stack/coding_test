@@ -1,3 +1,4 @@
+# 준영
 import re
 def isPalindrome(s):
     s = s.lower()
@@ -10,3 +11,7 @@ input_data = " A man, a plan, a canal : Panama"
 
 result = isPalindrome(input_data)
 print(result)
+
+# 영보
+
+# 승법
