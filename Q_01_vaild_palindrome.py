@@ -14,7 +14,15 @@ print(result)
 # 영보 - start!
 
 # 승범
+def isPalindrome(input) :
+    strList = []
+    for i in input:
+        if i.isalnum() :
+            strList.append(i.lower())
+    if strList != strList[::-1] :
+            return False
+    return True
 
-print("git push test")
+input = "A man, a plan, a canal: Panama"
 
-
+print(isPalindrome(input))
